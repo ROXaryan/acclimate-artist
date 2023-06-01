@@ -43,7 +43,7 @@ window.onscroll = () => {
  });
 
  ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
- ScrollReveal().reveal('.home-img, .watchlist-container, .watchlist-box, .portfolio-container, .portfolio-box', { origin: 'bottom'});
+ ScrollReveal().reveal('.home-img, .watchlist-container, .watchlist-box, .sketches-container, .sketches-box', { origin: 'bottom'});
  ScrollReveal().reveal('.home-content h1', { origin: 'left'});
  ScrollReveal().reveal('.home-content p', { origin: 'right'});
 

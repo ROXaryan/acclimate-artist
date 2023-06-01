@@ -168,22 +168,22 @@ span {
 }
 
 
-.portfolio {
+.sketches {
     background: black;
 }
 
-.portfolio h2 {
+.sketches h2 {
     margin-bottom: 4rem;
 }
 
-.portfolio-container {
+.sketches-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     gap: 2.5rem;
 }
 
-.portfolio-container .portfolio-box {
+.sketches-container .sketches-box {
     position:relative;
     border-radius: 3rem;
     box-shadow: 0 0 1rem #fff;
@@ -191,17 +191,17 @@ span {
     display: flex;
 }
 
-.portfolio-box img {
+.sketches-box img {
     width: 100% ;
     transition: .5s ease;
 }
 
-.portfolio-box:hover img {
+.sketches-box:hover img {
     transform: scale(1.1);
 }
 
 
-.portfolio-box .portfolio-layer {
+.sketches-box .sketches-layer {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -219,15 +219,15 @@ span {
     
 }
 
-.portfolio-box:hover .portfolio-layer {
+.sketches-box:hover .sketches-layer {
     transform: translateY(0 );
 }
 
-.portfolio-layer h4 {
+.sketches-layer h4 {
     font-size: 3rem;
 }
 
-.portfolio {
+.sketches {
     background: black;
 }
 
